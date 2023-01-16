@@ -1,8 +1,8 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import { Router } from './router';
 
 function App() {
-  return <div className="App">Portfolio Web</div>;
+  return <Router />;
 }
 
 export default App;
